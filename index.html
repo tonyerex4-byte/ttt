@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasty Treat Cafe Menu</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background-color: white;
+      color: black;
+      padding: 30px 15px;
+    }
+
+    .menu-card {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      padding: 25px;
+      border: 2px solid #2563eb;
+    }
+
+    .restaurant-name {
+      font-size: clamp(28px, 7vw, 42px);
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      font-style: italic;
+      text-align: center;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .menu-section {
+      border: 1px solid #2563eb;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 26px;
+      color: black;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    .dish-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      margin-bottom: 6px;
+    }
+
+    .dish-description {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 18px;
+    }
+
+    .dish-description:last-child {
+      margin-bottom: 0;
+    }
+
+    .special-offer {
+      font-size: 20px;
+      font-weight: bold;
+      color: black;
+      text-align: center;
+      padding: 15px;
+      margin: 25px 5px 5px;
+    }
+
+    @media (max-width: 480px) {
+      .menu-card {
+        padding: 15px;
+      }
+
+      .menu-section {
+        padding: 15px;
+      }
+
+      .section-title {
+        font-size: 23px;
+      }
+
+      .dish-name {
+        font-size: 18px;
+      }
+
+      .special-offer {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="menu-card">
+
+    <h1 class="restaurant-name">Tasty Treat Cafe</h1>
+
+    <p class="tagline">Fresh food, happy mood!</p>
+
+    <div class="menu-section">
+      <h2 class="section-title">Starters</h2>
+
+      <p class="dish-name">Cheesy Garlic Bread</p>
+      <p class="dish-description">
+        Crispy bread topped with melted cheese, garlic butter, and fresh herbs.
+      </p>
+
+      <p class="dish-name">Spicy Corn Bites</p>
+      <p class="dish-description">
+        Crunchy corn bites served with a tangy dip for a perfect evening snack.
+      </p>
+    </div>
+
+    <div class="menu-section">
+      <h2 class="section-title">Main Course</h2>
+
+      <p class="dish-name">Creamy Pasta Bowl</p>
+      <p class="dish-description">
+        Soft pasta cooked in creamy sauce with vegetables and delicious seasoning.
+      </p>
+
+      <p class="dish-name">Veggie Pizza</p>
+      <p class="dish-description">
+        A colourful pizza loaded with fresh vegetables, cheese, and tasty sauce.
+      </p>
+    </div>
+
+    <p class="special-offer">Weekend Special: 20% Off!</p>
+
+  </div>
+
+</body>
+</html>
